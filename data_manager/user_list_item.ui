@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserListItem</class>
+ <widget class="QWidget" name="UserListItem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>619</width>
+    <height>100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgba(0,0,0,0);</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <spacer name="horizontalSpacerLeft">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>5</width>
+       <height>10</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelUsername">
+     <property name="styleSheet">
+      <string notr="true">font-family:Microsoft Yahei;
+font:20px;
+font-weight:500;
+color:#888888;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btnModify">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+    font:12.5px;
+	font-weight:600;
+    color:rgb(14 , 150 , 254);
+    background-color:white;
+	border:2.5px solid rgb(14 , 150 , 254);
+    border-radius:20px;
+	margin-top:10;
+	margin-bottom:10
+}
+
+QPushButton:hover
+{
+    background-color:rgba(0 ,0 , 0,50);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(14 , 150 , 254);
+	color:white;
+}</string>
+       </property>
+       <property name="text">
+        <string>MODIFY</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnSelect">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+    font-family:Microsoft Yahei;
+    font:12.5px;
+	font-weight:600;
+    color:rgb(54 , 215 , 82);
+    background-color:white;
+	border:2.5px solid rgb(54 , 215 , 82);
+    border-radius:20px;
+	margin-top:10;
+	margin-bottom:10
+}
+
+QPushButton:hover
+{
+    background-color:rgba(0 ,0 , 0,50);
+}
+
+QPushButton:pressed
+{
+    background-color:rgb(54 , 215 , 82);
+	color:white;
+}</string>
+       </property>
+       <property name="text">
+        <string>SELECT</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="horizontalSpacerRight">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>5</width>
+       <height>10</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
